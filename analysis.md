@@ -1,0 +1,3 @@
+# Analysis Question
+
+The linked-list stack pushes at the head because adding a new node and changing the top reference takes O(1) time. Removing from the head also takes O(1) time, while removing from the tail of a singly linked list may take O(n) time because the previous node must be found. The array queue must be circular so that empty spaces at the beginning of the array can be reused after dequeue operations. Using modulo (%) lets the front and rear positions return to index 0 after reaching the end of the array. This avoids wasting available space and keeps enqueue and dequeue efficient.
